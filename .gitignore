@@ -1,0 +1,16 @@
+# Comentarios
+
+# Lineas en blanco se ignoran
+tmp/peliculas_marvel.txt
+
+tmp/ #Todas las carpetas tmp se ignoran, independientemente de donde estén
+
+/tmp #Solo la carpeta tmp del directorio raiz del proyecto
+
+tmp/*.txt
+
+# se puede utilizar ** (doble asterico) para omitir el nivel de la ruta
+/src/**tmp # A cuaquier nivel
+
+!/tmp/peliculas_marvel.txt # elimina la regla de ignorado
+
